@@ -14,12 +14,6 @@ insert_final_newline = true
 # Use UTF-8 encoding
 charset = utf-8
 
-# General file settings for web-related languages
-[*.{js,jsx,ts,tsx,html,css,scss,json,md}]
-# Indentation with 2 spaces for web-related files
-indent_style = space
-indent_size = 2
-
 # Remove trailing whitespace
 trim_trailing_whitespace = true
 
@@ -67,7 +61,7 @@ indent_size = 4
 indent_style = tab
 
 # Web languages
-[*.{html,css,scss,js,jsx,ts,tsx,json}]
+[*.{html,css,scss,js,jsx,ts,tsx,json,svelte}]
 # Indentation with 2 spaces
 indent_style = space
 indent_size = 2
