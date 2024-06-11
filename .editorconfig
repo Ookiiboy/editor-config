@@ -1,0 +1,144 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Global settings
+[*]
+# Unix-style newlines
+end_of_line = lf
+
+# Insert final newline at the end of files
+insert_final_newline = true
+
+# Use UTF-8 encoding
+charset = utf-8
+
+# General file settings for web-related languages
+[*.{js,jsx,ts,tsx,html,css,scss,json,md}]
+# Indentation with 2 spaces for web-related files
+indent_style = space
+indent_size = 2
+
+# Remove trailing whitespace
+trim_trailing_whitespace = true
+
+# YAML/JSON files
+[*.{yaml,yml,json}]
+# Indentation with 2 spaces
+indent_style = space
+indent_size = 2
+
+# Markdown files
+[*.md]
+# Do not trim trailing whitespace
+trim_trailing_whitespace = false
+
+# INI/Config/TOML files
+[*.{ini,config,toml}]
+# Indentation with 2 spaces
+indent_style = space
+indent_size = 2
+
+# Text files
+[*.txt]
+# Do not trim trailing whitespace
+trim_trailing_whitespace = false
+
+# Scripting languages
+[*.{sh,pl,rb,php,py,ps1,coffee}]
+# Indentation settings
+indent_style = space
+indent_size = 2
+
+# Python files (override to use tabs with indent size 4)
+[*.py]
+indent_style = tab
+indent_size = 4
+
+# Compiled languages
+[*.{c,h,cpp,hpp,cs,java,go,swift,kt,rs}]
+# Indentation with 4 spaces
+indent_style = space
+indent_size = 4
+
+# Go files (override to use tabs)
+[*.go]
+indent_style = tab
+
+# Web languages
+[*.{html,css,scss,js,jsx,ts,tsx,json}]
+# Indentation with 2 spaces
+indent_style = space
+indent_size = 2
+
+# Ruby files
+[*.rb]
+# Indentation with 2 spaces
+indent_style = space
+indent_size = 2
+
+# PHP files
+[*.php]
+# Indentation with 2 spaces
+indent_style = space
+indent_size = 2
+
+# Functional languages
+[*.{hs,ex,exs,erl,ml,clj,scm,lisp,fs}]
+# Indentation with 2 spaces
+indent_style = space
+indent_size = 2
+
+# Makefiles
+[Makefile]
+# Indentation with tabs
+indent_style = tab
+
+# Other specific languages
+[*.lua]
+# Indentation with 2 spaces
+indent_style = space
+indent_size = 2
+
+[*.r]
+# Indentation with 2 spaces
+indent_style = space
+indent_size = 2
+
+[*.jl]
+# Indentation with 4 spaces
+indent_style = space
+indent_size = 4
+
+# More specific languages
+[*.dart]
+# Indentation with 2 spaces
+indent_style = space
+indent_size = 2
+
+[*.{m,h}]
+# Objective-C files
+indent_style = space
+indent_size = 4
+
+[*.groovy]
+# Indentation with 4 spaces
+indent_style = space
+indent_size = 4
+
+# Esoteric languages
+[*.nim]
+# Indentation with 2 spaces
+indent_style = space
+indent_size = 2
+
+[*.cr]
+# Crystal files
+indent_style = space
+indent_size = 2
+
+[*.scala]
+# Scala files
+indent_style = space
+indent_size = 2
