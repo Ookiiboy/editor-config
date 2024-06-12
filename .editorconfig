@@ -45,7 +45,7 @@ trim_trailing_whitespace = false
 indent_style = space
 indent_size = 2
 
-# Python files (override to use tabs with indent size 4)
+# Python files
 [*.py]
 indent_style = tab
 indent_size = 4
@@ -121,7 +121,11 @@ indent_size = 4
 indent_style = space
 indent_size = 4
 
-# Esoteric languages
+[*.nix]
+# Indentation with 2 spaces
+indent_style = space
+indent_size = 2
+
 [*.nim]
 # Indentation with 2 spaces
 indent_style = space
