@@ -68,6 +68,10 @@ indent_style = tab
 indent_style = space
 indent_size = 2
 
+[*.css]
+# Put this inline with default stylelint config.
+insert_final_newline = false
+
 # Ruby files
 [*.rb]
 # Indentation with 2 spaces
