@@ -70,7 +70,7 @@ indent_size = 2
 
 [*.css]
 # Put this inline with default stylelint config.
-insert_final_newline = false
+insert_final_newline = true
 
 [*.hbs]
 insert_final_newline = false
